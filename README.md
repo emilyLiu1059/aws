@@ -43,3 +43,13 @@ pip3 install flask_mysqldb
    85  pip3 install flask_mysqldb
 ```
 
+```
+from flask import Flask
+
+app = Flask(__name__)
+
+@app.route("/")
+def hello_world():
+    return "<p>Hello, World!</p>"
+```
+
