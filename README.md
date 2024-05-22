@@ -24,3 +24,22 @@ pip3 install flask
 python3 app.py
 python3 -m flask --app board run --port 8000 --host 0.0.0.0 --debug
 ```
+```
+sudo yum install python3-devel
+
+pip3 install flask_mysqldb
+   73  mysql_config
+   74  udo yum install mysql-devel gcc gcc-devel python-devel
+   75  sudo yum install mysql-devel gcc gcc-devel python-devel
+   76  pip3 install flask_mysqldb
+   77  pip install mysql-connector-python
+   78  pip3 install mysql-connector-python
+   79  ls -tlr
+   80  python3 app.py
+   81  sudo easy_install mysql-python
+   82  python3 app.py
+   83  pip3 install flask_mysqldb
+   84  sudo yum install python3-devel
+   85  pip3 install flask_mysqldb
+```
+
