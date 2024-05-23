@@ -21,7 +21,7 @@ sudo vi /var/www/html/index.html
 ### Install Python Flask App
 
 ```
-sudo yum install mysql-devel gcc python3-devel
+sudo yum install -y mysql-devel gcc python3-devel
 pip3 install flask
 pip3 install flask_mysqldb
 ```
