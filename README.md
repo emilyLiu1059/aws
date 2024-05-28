@@ -24,6 +24,8 @@ sudo vi /var/www/html/index.html
 sudo yum install -y mysql-devel gcc python3-devel mysql
 pip3 install flask
 pip3 install flask_mysqldb
+yum install git
+pip3 install mysql-connector-python
 ```
 ```
 from flask import Flask
